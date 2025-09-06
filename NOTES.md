@@ -8,6 +8,10 @@ Comments follow a `;`.
 
 Global labels are defined with a following `::`.
 
+Local labels are defined with a following `:`.
+
+`:!` seems to indicate a forced global.
+
 `=` sets a **reassignable symbol** (i.e. variable)
 `==` sets an **absolute symbol** (i.e. constant)
 
@@ -38,3 +42,17 @@ IFDIF <value1><value2>,<code_if_different>
 DEFINE macroname,<macro_body>
 DEFINE macroname (param1,param2,...),<macro_body>
 ```
+
+Other directives to discuss: `TITLE`, `SEARCH`, `SALL`, `IRPC`, `REPEAT`, `IFNDEF`, `ORG`, `.XCREF`, `.CREF`, `IF1`, `IF2` `PAGE`, `COMMENT`.
+
+
+## Global Labels
+
+- `$Z` (line 6)
+- `LASTWR` (line 6947)
+- `TSTACK` (line 6950)
+
+
+## Fun Discoveries
+
+From lines 6934–6946, note the Copyright notice is not included on all platforms.
