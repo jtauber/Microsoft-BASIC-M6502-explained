@@ -25,3 +25,16 @@ IFN condition,<code_to_assemble_if_false>
 so the conditional code blocks are between angle brackets `<` `>` and can be nested (as seen in lines 36–39).
 
 Notice the trick of something like `IFN REALIO-1` which is testing if `REALIO` equals `1` (because then `REALIO-1` would be zero/falsey).
+
+Elsewhere `IFDIF` (IF DIFferent) is used to test for equality (for example in line 124):
+
+```
+IFDIF <value1><value2>,<code_if_different>
+```
+
+`DEFINE` defines macros.
+
+```
+DEFINE macroname,<macro_body>
+DEFINE macroname (param1,param2,...),<macro_body>
+```
