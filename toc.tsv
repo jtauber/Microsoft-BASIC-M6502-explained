@@ -1,47 +1,47 @@
-type  	 title                                                         	 start line
-TITLE 	 BASIC M6502 8K VER 1.1 BY MICRO-SOFT                          	          1
-SUBTTL	 SWITCHES,MACROS.                                              	          8
-SUBTTL	 INTRODUCTION AND COMPILATION PARAMETERS.                      	        206
-SUBTTL	 SOME EXPLANATION.                                             	        245
-SUBTTL	 PAGE ZERO.                                                    	        730
-SUBTTL	 RAM CODE.                                                     	        943
-SUBTTL	 DISPATCH TABLES, RESERVED WORDS, AND ERROR TEXTS.             	        993
-SUBTTL	 GENERAL STORAGE MANAGEMENT ROUTINES.                          	       1366
-SUBTTL	 ERROR HANDLER, READY, TERMINAL INPUT, COMPACTIFY, NEW, REINIT.	       1515
-SUBTTL	 THE "LIST" COMMAND.                                           	       1973
-SUBTTL	 THE "FOR" STATEMENT.                                          	       2064
-SUBTTL	 NEW STATEMENT FETCHER.                                        	       2131
-SUBTTL	 RESTORE,STOP,END,CONTINUE,NULL,CLEAR.                         	       2194
-SUBTTL	 LOAD AND SAVE SUBROUTINES.                                    	       2279
-SUBTTL	 RUN,GOTO,GOSUB,RETURN.                                        	       2365
-SUBTTL	 "IF ... THEN" CODE.                                           	       2464
-SUBTTL	 "ON ... GO TO ..." CODE.                                      	       2479
-SUBTTL	 LINGET -- READ A LINE NUMBER INTO LINNUM                      	       2497
-SUBTTL	 "LET" CODE.                                                   	       2539
-SUBTTL	 PRINT CODE.                                                   	       2655
-SUBTTL	 INPUT AND READ CODE.                                          	       2852
-SUBTTL	 THE NEXT CODE IS THE "NEXT CODE"                              	       3094
-SUBTTL	 FORMULA EVALUATION CODE.                                      	       3165
-SUBTTL	 DIMENSION AND VARIABLE SEARCHING.                             	       3600
-SUBTTL	 MULTIPLE DIMENSION CODE.                                      	       3781
-SUBTTL	 INTEGER ARITHMETIC ROUTINES.                                  	       4077
-SUBTTL	 FRE FUNCTION AND INTEGER TO FLOATING ROUTINES.                	       4113
-SUBTTL	 SIMPLE-USER-DEFINED-FUNCTION CODE.                            	       4135
-SUBTTL	 STRING FUNCTIONS.                                             	       4237
-SUBTTL	 PEEK, POKE, AND FNWAIT.                                       	       4792
-SUBTTL	 FLOATING POINT MATH PACKAGE CONFIGURATION.                    	       4847
-SUBTTL	 FLOATING POINT ADDITION AND SUBTRACTION.                      	       4901
-SUBTTL	 NATURAL LOG FUNCTION.                                         	       5167
-SUBTTL	 FLOATING MULTIPLICATION AND DIVISION.                         	       5264
-SUBTTL	 FLOATING POINT MOVEMENT ROUTINES.                             	       5465
-SUBTTL	 SIGN, SGN, FLOAT, NEG, ABS.                                   	       5561
-SUBTTL	 COMPARE TWO NUMBERS.                                          	       5600
-SUBTTL	 GREATEST INTEGER FUNCTION.                                    	       5642
-SUBTTL	 FLOATING POINT INPUT ROUTINE.                                 	       5696
-SUBTTL	 FLOATING POINT OUTPUT ROUTINE.                                	       5811
-SUBTTL	 EXPONENTIATION AND SQUARE ROOT FUNCTION.                      	       6104
-SUBTTL	 EXPONENTIATION FUNCTION.                                      	       6155
-SUBTTL	 POLYNOMIAL EVALUATOR AND THE RANDOM NUMBER GENERATOR.         	       6289
-SUBTTL	 SINE, COSINE AND TANGENT FUNCTIONS.                           	       6402
-SUBTTL	 ARCTANGENT FUNCTION.                                          	       6543
-SUBTTL	 SYSTEM INITIALIZATION CODE.                                   	       6672
+title                                                         	 start	  end
+BASIC M6502 8K VER 1.1 BY MICRO-SOFT                          	     1	    7
+SWITCHES,MACROS.                                              	     8	  205
+INTRODUCTION AND COMPILATION PARAMETERS.                      	   206	  244
+SOME EXPLANATION.                                             	   245	  729
+PAGE ZERO.                                                    	   730	  942
+RAM CODE.                                                     	   943	  992
+DISPATCH TABLES, RESERVED WORDS, AND ERROR TEXTS.             	   993	 1365
+GENERAL STORAGE MANAGEMENT ROUTINES.                          	  1366	 1514
+ERROR HANDLER, READY, TERMINAL INPUT, COMPACTIFY, NEW, REINIT.	  1515	 1972
+THE "LIST" COMMAND.                                           	  1973	 2063
+THE "FOR" STATEMENT.                                          	  2064	 2130
+NEW STATEMENT FETCHER.                                        	  2131	 2193
+RESTORE,STOP,END,CONTINUE,NULL,CLEAR.                         	  2194	 2278
+LOAD AND SAVE SUBROUTINES.                                    	  2279	 2364
+RUN,GOTO,GOSUB,RETURN.                                        	  2365	 2463
+"IF ... THEN" CODE.                                           	  2464	 2478
+"ON ... GO TO ..." CODE.                                      	  2479	 2496
+LINGET -- READ A LINE NUMBER INTO LINNUM                      	  2497	 2538
+"LET" CODE.                                                   	  2539	 2654
+PRINT CODE.                                                   	  2655	 2851
+INPUT AND READ CODE.                                          	  2852	 3093
+THE NEXT CODE IS THE "NEXT CODE"                              	  3094	 3164
+FORMULA EVALUATION CODE.                                      	  3165	 3599
+DIMENSION AND VARIABLE SEARCHING.                             	  3600	 3780
+MULTIPLE DIMENSION CODE.                                      	  3781	 4076
+INTEGER ARITHMETIC ROUTINES.                                  	  4077	 4112
+FRE FUNCTION AND INTEGER TO FLOATING ROUTINES.                	  4113	 4134
+SIMPLE-USER-DEFINED-FUNCTION CODE.                            	  4135	 4236
+STRING FUNCTIONS.                                             	  4237	 4791
+PEEK, POKE, AND FNWAIT.                                       	  4792	 4846
+FLOATING POINT MATH PACKAGE CONFIGURATION.                    	  4847	 4900
+FLOATING POINT ADDITION AND SUBTRACTION.                      	  4901	 5166
+NATURAL LOG FUNCTION.                                         	  5167	 5263
+FLOATING MULTIPLICATION AND DIVISION.                         	  5264	 5464
+FLOATING POINT MOVEMENT ROUTINES.                             	  5465	 5560
+SIGN, SGN, FLOAT, NEG, ABS.                                   	  5561	 5599
+COMPARE TWO NUMBERS.                                          	  5600	 5641
+GREATEST INTEGER FUNCTION.                                    	  5642	 5695
+FLOATING POINT INPUT ROUTINE.                                 	  5696	 5810
+FLOATING POINT OUTPUT ROUTINE.                                	  5811	 6103
+EXPONENTIATION AND SQUARE ROOT FUNCTION.                      	  6104	 6154
+EXPONENTIATION FUNCTION.                                      	  6155	 6288
+POLYNOMIAL EVALUATOR AND THE RANDOM NUMBER GENERATOR.         	  6289	 6401
+SINE, COSINE AND TANGENT FUNCTIONS.                           	  6402	 6542
+ARCTANGENT FUNCTION.                                          	  6543	 6671
+SYSTEM INITIALIZATION CODE.                                   	  6672	 6955
