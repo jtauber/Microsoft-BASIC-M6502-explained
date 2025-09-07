@@ -43,7 +43,35 @@ DEFINE macroname,<macro_body>
 DEFINE macroname (param1,param2,...),<macro_body>
 ```
 
-Other directives to discuss: `TITLE`, `SEARCH`, `SALL`, `IRPC`, `REPEAT`, `IFNDEF`, `ORG`, `.XCREF`, `.CREF`, `IF1`, `IF2` `PAGE`, `COMMENT`.
+`%` is used to generate an auto-incrementing label so that in:
+
+```
+DEFINE	INCW(R),<
+	INC	R
+	BNE	%Q
+	INC	R+1
+%Q:>
+```
+
+every expansion of `INCW` will mint a new `%Q`.
+
+`TITLE` gives the file a title.
+
+`SUBTTL` gives a section of a file a subtitle.
+
+`PAGE` indicates a page break in the file listing.
+
+`COMMENT` followed by a character indicates a multiline comment ending when that character appears again.
+
+`IF1` is a conditional code block included during the first pass.
+
+`IF2` is a conditional code block included during the second pass (when symbols have all been resolved)
+
+`SEARCH` tell the assembler to look for a library?
+
+`SALL` suppresses listing of macro expansions?
+
+Other directives to discuss: `IRPC`, `REPEAT`, `IFNDEF`, `ORG`, `.XCREF`, `.CREF`.
 
 
 ## Global Labels
