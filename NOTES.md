@@ -2,6 +2,10 @@
 
 These are just rough notes as I learn or discover something.
 
+NOTE: After I wrote all the notes below, I discovered the syntax is that of MACRO-10.
+
+What is still lacking is the additional macros referenced by the `SEARCH	M6502` directive.
+
 ## Macro Assembler Syntax
 
 Comments follow a `;`.
