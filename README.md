@@ -6,6 +6,7 @@ exploring the source code of Microsoft BASIC for 6502 Microprocessor - Version 1
 - `NOTES.md` various notes (currently mostly on Macro Assembler syntax)
 - `toc.tsv` table of contents of titled sections
 - `label_index.tsv` index of labels
+- `split/` the source code split into sections
 
 ## Roadmap
 
